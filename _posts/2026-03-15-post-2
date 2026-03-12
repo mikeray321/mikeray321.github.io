@@ -1,0 +1,26 @@
+I've just run through a quick vibe coding project. I plan to update the general project here.
+
+First, I asked a web based AI tool for some ideas on platform engineering, y'know, "like backstage" but with the constraints that 
+they be ideas that are do-able in a day. 
+
+So from there I had a list of a half dozen platform engineering-ish ideas. I then took the first idea and told it to change the destination
+targets from AWS or a K8s cluster to a local emulator like moto or minikube or docker, etc. 
+
+Then I asked for a directory structure (this web AI agent had a tendency to spoon feed me elements and give me files but not say where they go, so the directory
+was pretty useful in seeing how much wasn't done and where. 
+
+I deliberately chose a web UI AI agent with a copy and paste style system because this made me a "Man in the Middle": 
+I could see what was being done, how it was being done. I was being forced into the guts of the process rather than
+just running a cli in -yolo mode that could whip something out. And it tended to produce code that didn't work, so 
+troubleshooting was almost always a part of the process. 
+
+I feel troubleshooting is important: working through errors, fixing paths, seeing what happens when things don't work.
+
+A broken script is more instructional that a working one, and this AI agent produced lots of very instructional broken
+code. 
+
+I got to grapple with an github action for this, which was new to me although I'd worked extensively with jenkins and gitlab's pipeline feature. 
+So conceptually it wasn't new. 
+
+The goal was something that could be done in a day and it took about that.  The first round was 100% AI code with lots of
+errors. The iterations were human in the middle AI + human errors. And the result is all "vibes". 
